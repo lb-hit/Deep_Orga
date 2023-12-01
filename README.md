@@ -1,7 +1,7 @@
 # Deep_Orga
 Deep_Orga model maintains the single-stage and concise features of the YOLOX model while surpassing the performance of the classical models.
 
-![Total pipline of the Deep_Orga for organoid detection](/Graphical Abstract.tif)
+![Total pipline of the Deep_Orga for organoid detection](https://github.com/sibet-lb/Deep_Orga/blob/main/Graphical%20Abstract.png)
 
 ### Screenshot of the User Interface
 ![Screenshot of User Interface](/readme_images/screenshot.jpg)
