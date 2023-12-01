@@ -3,6 +3,8 @@ Deep_Orga model maintains the single-stage and concise features of the YOLOX mod
 
 ![Total pipline of the Deep_Orga for organoid detection](https://github.com/sibet-lb/Deep_Orga/blob/main/Graphical%20Abstract.png)
 
+## Dataset
+The dataset utilized in this paper was obtained from the literature(T. Kassis, V. Hernandez-Gordillo, R. Langer, L.G. Griffith, 1002-07. OrgaQuant: Human Intestinal Organoid Localization and Quantification Using Deep Convolutional Neural Networks, Sci. Rep. 9 (2019) 1–7. https://doi.org/10.1038/s41598-019-48874-y.) and consists of bright field microscope images of organoid cultures. These organoids were derived from patient duodenal biopsy tissues and were cultured following ethical review and with patient consent. To label the dataset, a crowdsourcing platform was employed, and manual annotation was performed. The dataset comprises 1750 images and contains a total of 14242 organoids.
 
 ## Getting Started
 ##System environment:
