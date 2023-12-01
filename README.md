@@ -6,6 +6,20 @@ Deep_Orga model maintains the single-stage and concise features of the YOLOX mod
 ## Dataset
 The dataset utilized in this paper was obtained from the literature(T. Kassis, V. Hernandez-Gordillo, R. Langer, L.G. Griffith, 1002-07. OrgaQuant: Human Intestinal Organoid Localization and Quantification Using Deep Convolutional Neural Networks, Sci. Rep. 9 (2019) 1–7. https://doi.org/10.1038/s41598-019-48874-y.) and consists of bright field microscope images of organoid cultures. These organoids were derived from patient duodenal biopsy tissues and were cultured following ethical review and with patient consent. To label the dataset, a crowdsourcing platform was employed, and manual annotation was performed. The dataset comprises 1750 images and contains a total of 14242 organoids.
 
+## Toolbox
+MMDetection is an open source project that is contributed by researchers and engineers from various colleges and companies. We use MMDetection in our research.
+@article{mmdetection,
+  title   = {{MMDetection}: Open MMLab Detection Toolbox and Benchmark},
+  author  = {Chen, Kai and Wang, Jiaqi and Pang, Jiangmiao and Cao, Yuhang and
+             Xiong, Yu and Li, Xiaoxiao and Sun, Shuyang and Feng, Wansen and
+             Liu, Ziwei and Xu, Jiarui and Zhang, Zheng and Cheng, Dazhi and
+             Zhu, Chenchen and Cheng, Tianheng and Zhao, Qijie and Li, Buyu and
+             Lu, Xin and Zhu, Rui and Wu, Yue and Dai, Jifeng and Wang, Jingdong
+             and Shi, Jianping and Ouyang, Wanli and Loy, Chen Change and Lin, Dahua},
+  journal= {arXiv preprint arXiv:1906.07155},
+  year={2019}
+}
+
 ## Getting Started
 ##System environment:
     sys.platform: win32
