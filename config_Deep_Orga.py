@@ -163,7 +163,7 @@ model = dict(
         add_ppf=True,
         norm_cfg=dict(type='BN', eps=0.001, momentum=0.03),
         out_indices=(1, 2, 3)))
-data_root = 'D:/博士课题/工作站代码及数据集备份/lb_code/21.yolo/mmyolo/data/organoid/'
+data_root = '##'
 dataset_type = 'CocoDataset'
 backend_args = None
 train_pipeline = [
@@ -188,7 +188,7 @@ train_dataset = dict(
     type='MultiImageMixDataset',
     dataset=dict(
         type='CocoDataset',
-        data_root='D:/博士课题/工作站代码及数据集备份/lb_code/21.yolo/mmyolo/data/organoid/',
+        data_root='##',
         ann_file='annotations/train.json',
         data_prefix=dict(img='images/'),
         pipeline=[
@@ -243,7 +243,7 @@ train_dataloader = dict(
         dataset=dict(
             type='CocoDataset',
             data_root=
-            'D:/博士课题/工作站代码及数据集备份/lb_code/21.yolo/mmyolo/data/organoid/',
+            '##',
             ann_file='annotations/train.json',
             data_prefix=dict(img='images/'),
             pipeline=[
@@ -285,7 +285,7 @@ val_dataloader = dict(
     sampler=dict(type='DefaultSampler', shuffle=False),
     dataset=dict(
         type='CocoDataset',
-        data_root='D:/博士课题/工作站代码及数据集备份/lb_code/21.yolo/mmyolo/data/organoid/',
+        data_root='##',
         ann_file='annotations/test.json',
         data_prefix=dict(img='images/'),
         test_mode=True,
@@ -312,7 +312,7 @@ test_dataloader = dict(
     sampler=dict(type='DefaultSampler', shuffle=False),
     dataset=dict(
         type='CocoDataset',
-        data_root='D:/博士课题/工作站代码及数据集备份/lb_code/21.yolo/mmyolo/data/organoid/',
+        data_root='##',
         ann_file='annotations/test.json',
         data_prefix=dict(img='images/'),
         test_mode=True,
@@ -334,13 +334,13 @@ test_dataloader = dict(
 val_evaluator = dict(
     type='CocoMetric',
     ann_file=
-    'D:/博士课题/工作站代码及数据集备份/lb_code/21.yolo/mmyolo/data/organoid/annotations/test.json',
+    '##',
     metric='bbox',
     backend_args=None)
 test_evaluator = dict(
     type='CocoMetric',
     ann_file=
-    'D:/博士课题/工作站代码及数据集备份/lb_code/21.yolo/mmyolo/data/organoid/annotations/test.json',
+    '##',
     metric='bbox',
     backend_args=None)
 max_epochs = 20
@@ -361,4 +361,4 @@ custom_imports = dict(
     imports=['mmpretrain.models'], allow_failed_imports=False)
 metainfo = dict(classes='object', palette=[(255, 0, 0)])
 launcher = 'none'
-work_dir = './work_dirs\\#O1_4yolox_s_8xb8-300e_coco_RepVGG_BFP_loss-balance-L1-0722'
+work_dir = './work_dirs##'
